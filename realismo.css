@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', Arial, Helvetica, sans-serif;
+}
+
+html {
+    max-width: 1920px;
+    width: 100%;
+    background-image: url(./imgs/background-realismo.png);
+    background-size: 100%;
+}
+
+
+
+.span img {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #c1c1c0;
+    align-items: center;
+    margin-top: -0.4vw;
+}
+
+.links {
+    width: 45vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.9vw;
+
+}
+
+.logo-header img {
+    width: 3.8vw;
+    border-left: 0.3vw solid gray;
+    height: auto;
+}
+
+section{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftside{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.leftside h1{
+    font-size: 3.4vw;
+    margin-top: -0.7vw;
+    padding-left: 29vw;
+    margin-bottom: 3.8vw;
+}
+
+.leftside .caract{
+    width: 50.8vw;
+    margin-left: 1.5vw;
+}
+
+.leftside .carac{
+    margin-left: 11.5vw;
+    font-size: 2.3vw;
+    margin-bottom: 0.7vw;
+}
+
+.li{
+    overflow-y: scroll;
+    margin-left:25.8vw;
+    width: 33.7vw;
+    height: 23.3vh;
+    font-size: 1.5vw;
+}
+
+span{
+    font-weight: 600;
+}
