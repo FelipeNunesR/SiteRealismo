@@ -40,6 +40,10 @@ header {
 
 }
 
+.links a:hover{
+    color:rgb(86, 84, 84);
+}
+
 .logo-header img {
     width: 3.8vw;
     border-left: 4px solid gray;
@@ -67,16 +71,16 @@ header {
 }
 
  .janela {
-    width: 53vw;
+    width: 43vw;
     height: auto;
 }
 
 .img .img-machado {
-    width: 52.7vw;
+    width: 42.7vw;
     margin-top: -25vw;
-    height: 57.7vh;
+    height: 40.7vh;
     padding-left: 5px;
-    padding-bottom: 5.3vw;
+    padding-bottom: 1.5vw;
 }
 
 .img .img-machado:hover{
@@ -93,15 +97,15 @@ header {
 .janela-realismo{
     width: 34vw;
     margin-bottom: 2.3vw;
-    margin-left: 7.5vw;
+    margin-left: 2vw;
 }
 
 .img .img-aluisio{
-    width: 52.7vw;
+    width: 42.7vw;
     margin-top: -25vw;
-    height: 29.5vw;
+    height: 40.7vh;
     padding-left: 5px;
-    padding-bottom: 5.3vw;
+    padding-bottom: 1.5vw;
 
 }
 .img .img-aluisio:hover{

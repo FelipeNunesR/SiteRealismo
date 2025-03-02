@@ -10,7 +10,7 @@
 html {
     max-width: 1920px;
     width: 100%;
-    background-image: url(./imgs/background-realismo.png);
+    background-image: url(../imgs/background-trechos.png);
     background-size: 100%;
 }
 
@@ -43,6 +43,9 @@ header {
     font-size: 2.9vw;
 
 }
+.links a:hover{
+    color:rgb(86, 84, 84);
+}
 
 .logo-header img {
     width: 3.8vw;
@@ -50,47 +53,33 @@ header {
     height: auto;
 }
 
-section{
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.leftside{
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-}
-
-.leftside h1{
-    font-size: 3.4vw;
-    margin-top: -0.7vw;
-    padding-left: 29vw;
-    margin-bottom: 3.8vw;
-}
-
-.leftside .caract{
-    width: 50.8vw;
-    margin-left: 1.5vw;
-}
-
-.leftside .carac{
-    margin-left: 11.5vw;
-    font-size: 2.3vw;
-    margin-bottom: 0.7vw;
-}
-
-.li{
-    overflow-y: scroll;
-    margin-left:25.8vw;
-    width: 33.7vw;
-    height: 23.3vh;
-    font-size: 1.5vw;
-}
-
 span{
-    font-weight: 600;
+    color: blue;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.trechos{
+    width: 54vw;
+    margin-top: 10.5vw;
+    overflow-y: scroll;
+    text-align: justify;
+    padding-right: 0.5vw;
+    height: 28vw;
+}
+
+.trechos h1{
+    font-size: 38px;
+}
+
+.trechos h2{
+    font-size: 28px;
+}
+
+.trechos p{
+    font-size: 23px;
 }

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', Arial, Helvetica, sans-serif;
+}
+
+html {
+    max-width: 1920px;
+    width: 100%;
+    background-image: url(../imgs/background-trechos.png);
+    background-size: 100%;
+}
+
+
+
+.span img {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #c1c1c0;
+    align-items: center;
+    margin-top: -0.4vw;
+}
+
+.links {
+    width: 45vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.9vw;
+
+}
+.links a:hover{
+    color:rgb(86, 84, 84);
+}
+
+.logo-header img {
+    width: 3.8vw;
+    border-left: 0.3vw solid gray;
+    height: auto;
+}
+
+span{
+    color: blue;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.trechos{
+    width: 54vw;
+    margin-top: 10.5vw;
+    overflow-y: scroll;
+    text-align: justify;
+    padding-right: 0.5vw;
+    height: 28vw;
+}
+
+.trechos h1{
+    font-size: 38px;
+}
+
+.trechos h2{
+    font-size: 28px;
+}
+
+.trechos p{
+    font-size: 23px;
+}
