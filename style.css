@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
     background-color: #c1c1c0;
     align-items: center;
-    margin-top: -0.4px;
+    margin-top: -2px;
 }
 
 .links {
@@ -70,21 +70,16 @@ header {
     margin-left: 7.5vw;
 }
 
- .janela {
-    width: 43vw;
-    height: auto;
-}
 
 .img .img-machado {
     width: 42.7vw;
-    margin-top: -25vw;
     height: 40.7vh;
     padding-left: 5px;
     padding-bottom: 1.5vw;
 }
 
 .img .img-machado:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition:0.6s ease-out;
     border-radius: 5px;
 }
@@ -102,14 +97,13 @@ header {
 
 .img .img-aluisio{
     width: 42.7vw;
-    margin-top: -25vw;
     height: 40.7vh;
     padding-left: 5px;
     padding-bottom: 1.5vw;
 
 }
 .img .img-aluisio:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition:0.6s ease-out;
     border-radius: 5px;
 }

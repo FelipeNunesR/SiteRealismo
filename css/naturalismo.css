@@ -88,12 +88,12 @@ section{
     text-align: justify;
 }
 b{
-    color: rgb(255, 0, 0);
+    color: rgb(192, 83, 83);
     font-weight: 600;
 }
 
 b:hover{
-    font-size: 2.2vw;
+    color: red;
 }
 
 h2{
@@ -140,4 +140,9 @@ span{
 .trechos a{
     font-size: 2vw;
     color:blue;
+    margin-left: 2vw;
+}
+
+.trechos a:last-child{
+    margin-left: 15vw;
 }

@@ -53,9 +53,6 @@ header {
     height: auto;
 }
 
-span{
-    color: blue;
-}
 
 section{
     display: flex;
@@ -82,4 +79,57 @@ section{
 
 .trechos p{
     font-size: 23px;
+}
+
+.red:hover,
+.red:hover ~ .red {
+    animation-name: vermelho ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.seagreen:hover,
+.seagreen:hover ~ .seagreen {
+    animation-name: verdeoc ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.orange:hover,
+.orange:hover ~ .orange {
+    animation-name: laranja ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes vermelho {
+    0% {
+        color: black;
+        text-shadow: 0 0 12px red red, 0 0 100px red;
+    }
+    10%, 90% {
+        color: red;
+        text-shadow: none;
+    }
+}
+@keyframes verdeoc {
+    0% {
+        color: black;
+        text-shadow: 0 0 12px seagreen seagreen, 0 0 100px seagreen;
+    }
+    10%, 90% {
+        color: seagreen;
+        text-shadow: none;
+    }
+}
+@keyframes laranja {
+    0% {
+        color: black;
+        text-shadow: 0 0 12px orange orange, 0 0 100px orange;
+    }
+    10%, 90% {
+        color: orange;
+        text-shadow: none;
+    }
 }
